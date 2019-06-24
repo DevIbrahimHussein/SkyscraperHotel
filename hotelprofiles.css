@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: inherit;
+  font-family: hind-reg;
+  font-size:2rem; }
+
+h1,h2,h3 {
+    font-family: "Yeseva One", cursive; }
+
+@font-face {
+    font-family: yeseva-one;
+    src:url(fonts/YesevaOne-Regular.ttf) format("truetype");
+    }
+
+@font-face {
+      font-family: hind-reg;
+      src:url(fonts/Hind-Regular.ttf) format("truetype");
+    }
+
+.text-box {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  color: #f4f4f4; }
+
+
+.buttonHotel1{
+      background-color: #df801f;
+      border: none;
+      color: white;
+      padding: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top:1.5rem;
+      margin-left: 4.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 50px;
+    }
+
+.buttonHotel1:hover{
+    color: #df801f;
+    background-color: white;
+    border-style: solid;
+    border-radius: 60px;
+    border-color: #df801f;
+    }
+
+.hotelsOptionsDesc{
+      font-size: 1.5rem;
+      opacity: 0.7;
+      text-align: center;
+      margin-left: 40rem;
+      margin-right: 40rem;
+      margin-bottom: 3rem;
+    }
+
+.hotelImage{
+  width: 900px;
+  height: 600px;
+  float: right;
+  margin-right: 80px;
+}
+
+.greyBg{
+  background-color: #F8F8F8;
+  padding-top: 9rem;
+  height: 600px;
+  width: 100%;
+}
+
+.title1{
+  font-family: hind-reg;
+  margin-left: 90px;
+  font-size: 1.75rem;
+  color: #484848;
+}
+
+.regTitle{
+  font-family: yeseva-one;
+  font-size: 4rem;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+
+.hotelDesc{
+  font-family: hind-reg;
+  font-size: 2rem;
+  opacity: 0.7;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.hotelImg{
+  width: 500px;
+  height: 400px;
+  float: left;
+  margin-left: 100px;
+}
+
+.titleI{
+  font-family: hind-reg;
+  text-align: center;
+  font-size: 1.75rem;
+  color: #484848;
+}
+
+.titleII{
+  font-family: yeseva-one;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0.625rem;
+}
+
+.roomsDesc{
+  font-family: hind-reg;
+  text-align: center;
+  opacity: 0.7;
+  font-size: 1.75rem;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-top: 0.625rem;
+  margin-bottom: 3rem;
+}
+
+.roomImages{
+  height: 29rem;
+  width: 30rem;
+  margin-left: 2.5rem;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.roomImages:hover{
+  transform: scale(1.1);
+}
+
+.greyBg2{
+  background-color: #F8F8F8;
+  height: 33rem;
+  width: 35rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 2.5rem;
+}
+
+.roomTitle{
+  font-family: hind-reg;
+  font-size: 3rem;
+  margin-left: 5.5rem;
+  margin-top: 1rem;
+  font-weight:bold;
+}
+
+.roomPrice{
+  margin-left: 5.5rem;
+  margin-top: 1rem;
+}
+
+ul{
+  opacity: 0.7;
+  font-size: 1.75rem;
+  margin-left: 3.55rem;
+  margin-top: 1.5rem;
+}
+
+.amenitiesDesc{
+  font-family: hind-reg;
+  font-size: 2rem;
+  opacity: 0.7;
+  margin-left: 90px;
+  margin-top: 20px;
+}

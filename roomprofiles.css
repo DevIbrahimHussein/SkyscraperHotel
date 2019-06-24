@@ -1,0 +1,263 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: inherit;
+  font-family: hind-reg;
+  font-size:2rem; }
+
+  @font-face {
+      font-family: yeseva-one;
+      src:url(fonts/YesevaOne-Regular.ttf) format("truetype");
+      }
+
+  @font-face {
+        font-family: hind-reg;
+        src:url(fonts/Hind-Regular.ttf) format("truetype");
+      }
+
+.roomTypeTitle{
+  font-family: yeseva-one;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.roomTypeTitle2{
+  font-family: hind-reg;
+  font-size: 2.5rem;
+  text-align:center;
+  margin-top: 1rem;
+}
+
+.price{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.rDescription{
+  font-family: hind-reg;
+  font-size: 3rem;
+  margin-top: 10rem;
+  margin-left: 31rem;
+  margin-bottom: 1.5rem;
+}
+
+.bodyText{
+  opacity: 0.6;
+  font-size: 2rem;
+  margin-left: 31rem;
+  margin-right: 31rem;
+  margin-bottom: 6rem;
+}
+
+.h-divider{
+ margin-top:1rem;
+ margin-bottom:7rem;
+ margin-left: 35rem;
+ height:2rem;
+ width:50%;
+ border-top:0.1rem solid gray;
+ opacity: 0.4;
+}
+
+.h-divider2{
+ margin-top:8rem;
+ margin-bottom:7rem;
+ margin-left: 35rem;
+ height:2rem;
+ width:50%;
+ border-top:0.1rem solid gray;
+ opacity: 0.4;
+}
+
+ul {
+ list-style-type: square;
+ list-style-position: outside;
+ list-style-image: none;
+}
+
+li {
+    font-size: 1rem;
+}
+li span {
+    font-size: 2rem;
+}
+
+.formText{
+  font-family: hind-reg;
+  font-size: 2rem;
+}
+
+.resForm{
+  margin-left: 31rem;
+}
+
+label{
+  font-size: 1.5rem;
+  font-weight:bold;
+  opacity: 0.8;
+}
+
+input{
+  width: 89rem;
+  opacity: 0.8;
+  background-color: #F0F0F0;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+input:focus{
+  outline: none;
+}
+
+select{
+  width: 89rem;
+  opacity: 0.8;
+  background-color: #F0F0F0;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+select:focus{
+  outline: none;
+}
+
+.resButton{
+  outline: none;
+  border: none;
+  background-color: #df801f;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+  width: 20rem;
+  height: 4rem;
+  margin-bottom: 8rem;
+}
+
+.resButton:hover{
+  background-color: black;
+}
+
+.roomCheckoutDetails{
+  font-size: 1.5rem;
+  font-family: hind-reg;
+  margin-top: 2rem;
+  margin-left: -1.25rem;
+}
+
+dt{
+  float: left;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+dd{
+  display: inline;
+  font-size: 1.79rem;
+  opacity: 0.6;
+  margin-left: 2rem;
+}
+
+.radioBtnContainer{
+  margin-left: 28rem;
+  margin-top: 1rem;
+}
+
+.radioBtnTitle{
+  font-family: hind-reg;
+  font-size: 1.75rem;
+  margin-left: 2rem;
+  font-weight: lighter;
+}
+
+.radioBtnDescription{
+  font-size: 1.5rem;
+  opacity: 0.6;
+  margin-top: 1rem;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+}
+
+
+/* radio button stuff */
+.container{
+display: block;
+position: relative;
+padding-left: 2.2rem;
+margin-bottom: 0.8rem;
+cursor: pointer;
+font-size: 1.5rem;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+position: absolute;
+opacity: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 2rem;
+width: 2rem;
+background-color: #eee;
+border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+background-color: #ccc;
+}
+
+/* When the radio button is checked, add a black background */
+.container input:checked ~ .checkmark {
+background-color: black;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+top: 5px;
+left: 5px;
+width: 9px;;
+height: 9px;
+border-radius: 50%;
+background: white;
+}
+/*end of radio button stuff*/
+
+.checkboxContainer{
+  margin-left: 28rem;
+  margin-top: 1rem;
+}
+
+.checkboxTitle{
+  font-size: 1.5rem;
+  opacity: 0.6;
+  margin-top: 1rem;
+  font-weight: lighter;
+  margin-bottom: 3rem;
+  display: inline;
+}
